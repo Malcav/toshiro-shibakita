@@ -10,7 +10,7 @@ ini_set("display_errors", 1);
 header('Content-Type: text/html; charset=iso-8859-1');
 
 
-
+echo 'Você está no Host: ' . gethostname() . '<br>';
 echo 'Versao Atual do PHP: ' . phpversion() . '<br>';
 
 $servername = "54.234.153.24";
